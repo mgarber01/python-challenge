@@ -47,6 +47,6 @@ with open(csvfile, newline= '') as csvfile:
     print(f'{vtcountlist[3][0]}: {round(((vtcountlist[3][1]/len(data))* 100),2)}% ({vtcountlist[3][1]})')  
 
 # printing to the .txt file
-resultsfile = open("C:\\Users\\Matt Garber\\python-challenge\\pollresults.txt","w")
+resultsfile = open("pollresults.txt","w")
 resultsfile.write(("\n Election Results\n---------------------\n Total Votes: 3521001\n--------------------\nKhan: 63.0% (2218232)\nCorrey: 20.0% (704201)\nLi: 14.0% (492941)\nO'Tooley: 3.0% (105631)"))    
 resultsfile.close()          
