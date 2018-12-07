@@ -48,6 +48,6 @@ print(f'Greatest Increase in Profits: {GI[0]} ({GI[1]})')
 print(f'Greatest Decrease in Profits: {GD[0]} ({GD[1]})') 
 
 #print to the .txt file. 
-bankresultsfile = open("C:\\Users\\Matt Garber\\python-challenge\\bankresults.txt","w")
+bankresultsfile = open("bankresults.txt","w")
 bankresultsfile.write("\n Financial Analysis \n ----------------\n Total Months:86\nTotal: 38382578\n Average Change: -2315.12\n Greatest Increase in Profits: Feb-2012 (1926159)\n Greatest Decrease in Profits: Sep-2013 (-2196167)")
 bankresultsfile.close()
